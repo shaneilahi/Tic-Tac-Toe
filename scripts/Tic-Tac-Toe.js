@@ -391,7 +391,7 @@ const pick = (buttonIndex, outerArrayIndex, innerArrayIndex) => {
     if (isUserWinner && (isCompWinner === undefined || isCompWinner === false)) {
       didPlayerWin = false;
       computerPicking = false;
-      plays = 0
+      plays = 0;
       console.log('You Win!');
       resultElement.innerHTML = 'You Win!';
       emptyResult();
