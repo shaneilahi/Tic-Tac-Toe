@@ -360,9 +360,10 @@ const pick = (buttonIndex, outerArrayIndex, innerArrayIndex) => {
 
     plays += 1;
     // let loopCounter = 0;
-    // console.log('plays: ' + plays);
+    console.log('plays: ' + plays);
     if (plays === 9) {
       computerPicking = false;
+      playing = false;
     }
 
     while (computerPicking) {
