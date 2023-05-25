@@ -1,0 +1,30 @@
+    
+      div {
+        border: 1px solid grey;
+        padding: 8px; 
+      }
+
+      .inner {
+        text-align: center;
+        border-block: 0px;
+      }
+
+      .buttons-style {
+        padding: 30px;
+        font-size: 20px;
+        border: none;
+        background-color:aliceblue;
+      }
+
+      .result {
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .userPick {
+        background-color: yellow;
+      }
+
+      .compPick {
+        background-color: gray;
+      }
