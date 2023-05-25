@@ -406,6 +406,7 @@ const pick = (buttonIndex, outerArrayIndex, innerArrayIndex) => {
     } else if (plays === 9 && isUserWinner === undefined && isCompWinner === undefined) {
       resultElement.innerHTML = 'Tie!';
       console.log('Tie!');
+      plays = 0;
       emptyResult();
       removeActive();
       setTimeout(() => {
